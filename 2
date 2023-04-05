@@ -1,0 +1,12 @@
+// This program finds the largest number in an array
+
+const numbers = [10, 25, 5, 45, 60, 20]; // Define an array of numbers
+let largest = numbers[0]; // Assume the first number is the largest
+
+for (let i = 1; i < numbers.length; i++) { // Loop through the array
+  if (numbers[i] > largest) { // Check if the current number is greater than the assumed largest number
+    largest = numbers[i]; // If so, set the current number as the largest
+  }
+}
+
+console.log("The largest number is:", largest); // Output the largest number
